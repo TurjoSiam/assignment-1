@@ -8,6 +8,9 @@
 body{
     font-family: Azeret Mono;
 }
+p{
+    font-size: 18px;
+}
 
 /* navbar section starts here */
 .navbar{
@@ -58,3 +61,43 @@ body{
     color: white;
 }
 /* banner section ends here */
+
+/* why web development section starts here */
+.why-web-development{
+    margin: 80px 150px;
+    padding: 80px 150px;
+    background-color:rgb(246, 246, 247);
+}
+.why-container{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.why-container h2{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.card1{
+    padding: 60px 120px;
+    display: flex;
+    background-color: white;
+}
+.card1-content{
+    width: 62%;
+}
+.card1-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.card1-content p{
+    margin: 25px 0px 32px 0px;;
+}
+.why-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+.card1-image{
+    width: 38%;
+    text-align: right;
+}
