@@ -9,7 +9,7 @@ body{
     font-family: Azeret Mono;
 }
 
-/* banner section starts here */
+/* navbar section starts here */
 .navbar{
     padding: 35px 160px;
     display: flex;
@@ -26,3 +26,35 @@ body{
     padding: 17px 24px;
     border-radius: 8px;
 }
+/* navbar section ends here */
+
+/* banner section starts here */
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 26px 221px;
+}
+.banner-container{
+    text-align: center;
+}
+.banner-container h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 32px 0px 24px 0px;
+}
+.banner-container p{
+    color: rgb(13, 19, 33);
+    margin: 0px 120px;
+}
+.banner-btn{
+    margin: 32px 0px 44px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+/* banner section ends here */
