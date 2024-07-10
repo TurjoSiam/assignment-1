@@ -259,7 +259,7 @@ body{
 /* support section ends here */
 
 /* footer section starts here */
-#footer{
+.footer{
     display: flex;
     justify-content: space-between;
     padding: 30px 170px;
