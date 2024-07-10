@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
 }
-
 body{
     font-family: Azeret Mono;
 
@@ -220,6 +219,108 @@ body{
 }
 /* my target section ends here */
 
+/* next target section starts here */
+.next-target{
+    margin: 90px 170px;
+}
+.next-target-content{
+    text-align: center;
+    padding: 0px 144px;
+}
+.next-target-content h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.react{
+    display: flex;
+    margin-top: 50px;
+    padding: 40px 40px 40px 0px;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+.react-img{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.react-details{
+    width: 85%;
+}
+.react-details h3{
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.react-details p{
+    margin-bottom: 25px;
+}
+.react-details a{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.nodejs{
+    display: flex;
+    margin-top: 20px;
+    padding: 40px 40px 40px 0px;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+.nodejs-img{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nodejs-details{
+    width: 85%;
+}
+.nodejs-details h3{
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.nodejs-details p{
+    margin-bottom: 25px;
+}
+.nodejs-details a{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.mongodb{
+    display: flex;
+    margin: 20px 0px 30px 0px;
+    padding: 40px 40px 40px 0px;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+.mongodb-img{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mongodb-details{
+    width: 85%;
+}
+.mongodb-details h3{
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.mongodb-details p{
+    margin-bottom: 25px;
+}
+.mongodb-details a{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+/* next target section ends here */
+
 /* support section starts here */
 .support{
     margin: 90px 170px;
@@ -259,10 +360,10 @@ body{
 /* support section ends here */
 
 /* footer section starts here */
-.footer{
+#footer{
     display: flex;
     justify-content: space-between;
-    padding: 30px 150px;
+    padding: 30px 130px;
     margin-top: 70px;
     background-color: rgba(13, 19, 33, 0.03);
 }
