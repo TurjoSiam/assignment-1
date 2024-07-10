@@ -7,10 +7,6 @@
 
 body{
     font-family: Azeret Mono;
-}
-p{
-    font-size: 18px;
-}
 
 /* navbar section starts here */
 .navbar{
@@ -43,7 +39,7 @@ p{
     text-align: center;
 }
 .banner-container h1{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 800;
     margin: 32px 0px 24px 0px;
 }
@@ -72,12 +68,12 @@ p{
     text-align: center;
 }
 .why-container h2{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 .card1{
-    padding: 60px 120px;
+    padding: 50px 60px;
     margin-top: 50px;
     display: flex;
     background-color: white;
@@ -86,23 +82,23 @@ p{
     width: 62%;
 }
 .card1-content h3{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
 }
 .card1-content p{
     margin: 25px 0px 32px 0px;;
 }
 .why-btn{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
-    padding: 12px 20px;
+    padding: 10px 15px;
 }
 .card1-image{
     width: 38%;
     text-align: right;
 }
 .card2{
-    padding: 60px 120px;
+    padding: 50px 60px;
     margin-top: 50px;
     display: flex;
     background-color: white;
@@ -111,7 +107,7 @@ p{
     width: 62%;
 }
 .card2-content h3{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
 }
 .card2-content p{
@@ -134,7 +130,7 @@ p{
     margin: 0px 150px 50px 150px;
 }
 .my-inspiration-content h2{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
@@ -158,7 +154,7 @@ p{
     margin: 0px 150px 50px 150px;
 }
 .my-target h2{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
@@ -169,16 +165,19 @@ p{
     padding: 0px 30px;
 }
 .my-target-box1{
-    padding: 45px;
+    padding: 40px;
     background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
 }
 .my-target-box2{
-    padding: 45px;
+    padding: 40px;
     background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
 }
 .my-target-box3{
-    padding: 45px;
+    padding: 40px;
     background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
 }
 .my-target-box1 h3{
     margin: 25px 0px;
@@ -237,23 +236,42 @@ p{
     text-align: center;
 }
 .support-container h2{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
     color: white;
-    margin-bottom: 24px; 
+    margin-bottom: 28px; 
 }
 .support-container p{
     color: white;
 }
 #support{
     width: 550px;
-    height: 57px;
+    height: 50px;
     margin-top: 50px;
     border-radius: 8px;
 }
 #submit{
     font-size: 20px;
     font-weight: 600;
-    padding: 17px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
 }
+/* support section ends here */
+
+/* footer section starts here */
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 170px;
+    margin-top: 70px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.footer-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-icons{
+    display: flex;
+    gap: 25px;
+}
+/* footer section ends here */
