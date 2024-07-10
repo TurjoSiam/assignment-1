@@ -64,7 +64,7 @@ p{
 
 /* why web development section starts here */
 .why-web-development{
-    margin: 80px 170px;
+    margin: 90px 170px;
     padding: 80px 150px;
     background-color:rgb(246, 246, 247);
 }
@@ -125,7 +125,6 @@ p{
 /* my inspiration section starts here */
 .my-inspiration{
     margin: 80px 170px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,8 +151,7 @@ p{
 
 /* my target section starts here */
 .my-target{
-    margin: 80px 170px;
-    border: 2px solid red;
+    margin: 90px 170px;
 }
 .my-target-content{
     text-align: center;
@@ -220,4 +218,42 @@ p{
     font-size: 18px;
     font-weight: 700;
     color: black;
+}
+/* my target section ends here */
+
+/* support section starts here */
+.support{
+    margin: 90px 170px;
+    border-radius: 16px;
+    padding: 80px 65px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.support-container{
+    text-align: center;
+}
+.support-container h2{
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 24px; 
+}
+.support-container p{
+    color: white;
+}
+#support{
+    width: 550px;
+    height: 57px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+#submit{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border-radius: 8px;
 }
