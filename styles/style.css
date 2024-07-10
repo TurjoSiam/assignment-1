@@ -70,7 +70,6 @@ p{
 }
 .why-container{
     text-align: center;
-    margin-bottom: 50px;
 }
 .why-container h2{
     font-size: 35px;
@@ -79,6 +78,7 @@ p{
 }
 .card1{
     padding: 60px 120px;
+    margin-top: 50px;
     display: flex;
     background-color: white;
 }
@@ -101,3 +101,22 @@ p{
     width: 38%;
     text-align: right;
 }
+.card2{
+    padding: 60px 120px;
+    margin-top: 50px;
+    display: flex;
+    background-color: white;
+}
+.card2-content{
+    width: 62%;
+}
+.card2-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.card2-content p{
+    margin: 25px 0px 32px 0px;;
+}
+.card2-image{
+    width: 38%;
+    text-align: left;
